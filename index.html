@@ -1,0 +1,319 @@
+<!doctype html>
+<html style="padding: 16px">
+    <head>
+        <meta name="viewport" content="width=device-width"; "text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style/latinmodern-sans-demi.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="style/latinmodern-sans.css" type="text/css" charset="utf-8" />
+        <style type="text/css">
+            body {
+                font-family: 'Latin Modern Sans', Arial, Helvetica, sans-serif;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Latin Modern Sans', Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            dl dt {
+                font-weight: bold;
+            }
+            dl dd {
+                margin-bottom: 1em;
+            }
+            em {
+                font-style: italic;
+            }
+            sub, sup {
+                font-size: 70%;
+            }
+            .smallcaps {
+                font-family: 'Latin Modern Sans', Arial, Helvetica, sans-serif;
+                font-variant: small-caps;
+            }
+            .p10 {
+                font-size: 10px;
+            }
+            .p11 {
+                font-size: 11px;
+            }
+            .p12 {
+                font-size: 12px;
+            }
+            .p14 {
+                font-size: 14px;
+            }
+            .p16 {
+                font-size: 16px;
+            }
+            .p18 {
+                font-size: 18px;
+            }
+            .p20 {
+                font-size: 20px;
+            }
+            .p22 {
+                font-size: 22px;
+            }
+            .p24 {
+                font-size: 24px;
+            }
+            .p26 {
+                font-size: 26px;
+            }
+            .p28 {
+                font-size: 28px;
+            }
+            .p30 {
+                font-size: 30px;
+            }
+            .mono {
+                font-family: "Latin Modern Mono", ;
+                font-weight: normal;
+                font-style: normal;
+            }
+        </style>
+        <style>
+            .nobreak {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .articlenote {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            .nobold {
+                font-weight: normal;
+                font-size: 22px;
+            }
+            .collapsible {
+                padding-top: 0px;
+                padding-bottom: 6px;
+                padding-left: 6px;
+                background-color: #FFF;
+                cursor: pointer;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-family: "Latin Modern Sans";
+                font-size: 22px;
+                display: inline-grid;
+                vertical-align: baseline;
+            }
+
+            .active {
+                font-size: 21px;
+                line-height: 1.6em;
+                font-weight: bold;
+            }
+
+            .active, .collapsible:hover {
+                background-color: #EEE;
+            }
+
+            .collapsible:after {
+                grid-row-start: 1;
+                grid-column-start: 2;
+                white-space: nowrap;
+                font-weight: normal;
+                font-size: 18px;
+                content: "[show more]";
+                margin-left: auto;
+                padding-left: 12px;
+                padding-top: 3px;
+            }
+
+            .active:after {
+                grid-row-start: 1;
+                grid-column-start: 2;
+                white-space: nowrap;
+                font-size: 18px;
+                content: "[show less]";
+                margin-left: auto;
+                padding-left: 12px;
+                padding-top: 0px;
+            }
+
+
+            .content {
+                padding-left: 6px;
+                padding-right: 6px;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+            }
+        </style>
+        <script id="MathJax-script" async
+                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <title>Ferdinand Wagner</title>
+    </head>
+<body style="max-width:1000px; margin: auto" class="p22">
+    <h1> <center> Personal homepage of Ferdinand Wagner </center> </h1>
+    <div class="p20"">
+        <center>
+            <!--
+            Max-Planck Insitute for Mathematics <br>
+            Vivatsgasse 7 <br>
+            53111 Bonn, Germany <br> <br>
+            Office 404
+            <br><br>
+            -->
+            <div  style="overflow: scroll">
+                <img src="email.svg" alt="ferdinand dot wagner at uni-bonn dot de" title="ferdinand dot wagner at uni-bonn dot de"/>
+            </div>
+        </center>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: center; margin-top: 30px; justify-items: center">
+        <div>
+            <img src="photo_Oberwolfach_cropped.jpg" alt="The obligatory Oberwolfach photo."  title="The obligatory Oberwolfach photo." style="height: 192px; align: center; margin-right: 0px; margin-top: 6px"/>
+            <div style="width: 256px; text-align: center; margin-right: 0px; font-size: medium">The obligatory Oberwolfach photo.<br><div style="font-size: x-small">(&#169; <i>MFO/Marlene Ruf</i>)</div></div>
+        </div>
+        <div style="text-align: justify; flex: 1 1 360px; min-width: min(360px, fit-content); max-width: fit-content; vertical-align: top; align-self: center">
+            I'll start as a postdoc at the University of Münster in the arithmetic and homotopy theory working group led by <a href="https://www.uni-muenster.de/Arithm/deninger/index.html">Christopher Deninger</a> and <a href="https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/index.html">Thomas Nikolaus</a>. Before that, I did my Ph.D. at the MPIM/University of Bonn, under the supervision of <a href="https://people.mpim-bonn.mpg.de/scholze/">Peter Scholze</a>.
+
+            <p style="margin-top: 12px">
+                I'm interested in cohomology theories for arithmetic schemes, especially in the global case. I'm also a huge fan of applying higher categorical and homotopical methods to algebra problems.
+            </p>
+        </div>
+        <div style="text-align: justify; width: 100%;">
+                Here's a <a href="CV_2025.pdf">CV</a> (last updated: January 2026) and my <a href="q-Thesis.pdf">thesis</a>.
+        </div>
+    </div>
+    <div>
+        <h2 style="margin-bottom: 12px"> Current research interests</h2>
+        <button type="button" class="collapsible"><div><a class="nobold">&#9657;</a> Habiro cohomology.<div></button>
+        <div class="content">
+            <p style="text-align: justify; margin-top: 0px">
+                Peter Scholze has raised the question whether there exists a version of \(q\)-de Rham cohomology with coefficients in the <i>Habiro ring</i> \[\mathcal H=\lim_{m\in\mathbb N}\mathbb Z[q]_{(q^m-1)}^\wedge\] rather than the power series ring \(\mathbb Z[[q-1]]\). Recently, Scholze has constructed a version of such a theory with coefficients in an <i>analytic</i> variant of the Habiro ring. In my thesis, I construct an <i>algebraic</i> version of Habiro cohomology, with coefficients in the completion of \(\mathcal H\bigl[\frac 1N\bigr]\) for some large enough integer \(N\). I'd like to find out how this relates to Scholze's analytic construction.
+            </p>
+        </div>
+
+        <button type="button" class="collapsible"><div><span class="nobold">&#9657;</span> Refined <span style="font-size: 22px">\(\mathrm{THH}\)</span> and <span style="font-size: 22px">\(\mathrm{TC}^-\)</span>.</div></button>
+        <div class = "content">
+            <p style="text-align: justify; margin-top: 0px">
+                Efimov and Scholze have constructed certain refinements \(\mathrm{THH}^{\mathrm{ref}}\) and \(\mathrm{TC}^{-,\mathrm{ref}}\) of topological Hochschild and negative cyclic homology. Using an approprately defined even filtration on \(\mathrm{THH}^{\mathrm{ref}}(-/\mathrm{KU})\), it should be possible to recover Scholze's analytic Habiro cohomology, along with a (desirable) modification at roots of unity. I aim to work this out and I'm curious to find out what happens over higher chromatic bases.
+            </p>
+        </div>
+
+        <button type="button" class="collapsible"><div><span class="nobold">&#9657;</span>  Connections to 3-manifold topology.</div></button>
+        <div class = "content">
+            <p style="text-align: justify; margin-top:0px">
+                Habiro cohomology seems to be related to 3-manifold invariants and the quantum modularity conjectures of Garoufalidis and Zagier. In the case of e&#769;tale algebras over \(\mathbb Z\), this is the content of Garoufalidis&ndash;Scholze&ndash;Wheeler&ndash;Zagier's work on the <a href="https://arxiv.org/abs/2412.04241"><i>Habiro ring of a number field</i></a> (combined with the fact that algebraic Habiro cohomology recovers their construction). But this story seems to continue beyond the e&#769;tale case. For example, Garoufalidis&ndash;Wheeler have recently found constructions of <a href="https://arxiv.org/abs/2505.19885">explicit classes in algebraic Habiro cohomology</a> using perturbative Chern&ndash;Simons theory. I would like to understand more about this mysterious connection.
+            </p>
+        </div>
+    </div>
+    <div>
+        <h2 style="margin-bottom: 12px"> Preprints </h2>
+        <p style="text-align: justify; margin-top: 0px">
+        My preprints can also be found on the <a href="https://arxiv.org/search/math?searchtype=author&query=Wagner,+Ferdinand">arXiv</a>. The versions here are updated more frequently and optimised for (or rather against) badboxes and for (not against) my typographical taste.
+        </p>
+        <ol style="text-align: justify; margin-top: 12px; margin-bottom: 12px" reversed>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible">
+                    <div><a href="q-Habiro.pdf"><span style="font-size: 22px">\(q\)</span>-Hodge complexes over the Habiro ring</a>.</div>
+                </button>
+                <div class = "content">
+                    <div>
+                        Peter Scholze has raised the question whether some variant of the \(q\)-de Rham complex is already defined over the Habiro ring. Such a variant should then be called <i>(algebraic) Habiro cohomology</i>.
+                    </div>
+                    <div style="margin-top: 12px; text-align: justify">
+                        We show that algebraic Habiro cohomology exists whenever the \(q\)-de Rham complex can be equipped with a <i>\(q\)-Hodge filtration</i>: a \(q\)-deformation of the Hodge filtration, subject to some reasonable conditions. To any such \(q\)-Hodge filtration we'll associate a small modification of the \(q\)-de Rham complex, which we call the <i>\(q\)-Hodge complex</i>, and show that it descends canonically to the Habiro ring. This construction recovers and generalises the <a href="https://arxiv.org/abs/2412.04241"><i>Habiro ring of a number field</i></a> of Garoufalidis&ndash;Scholze&ndash;Wheeler&ndash;Zagier and is closely related to the \(q\)-de Rham--Witt complexes from my previous work. Conjecturally there should also be a close connection to Scholze's <i>analytic Habiro cohomology</i>.
+                    </div>
+                </div>
+            </li>
+            <li li style="margin-bottom: 12px">
+                <button type="button" class="collapsible">
+                    <div><a href="q-deRhamku.pdf"><span style="font-size: 22px">\(q\)</span>-de Rham cohomology and topological Hochschild homology over <span style="font-size: 22px">\(\mathrm{ku}\)</span></a>.</div>
+                </button>
+                <div class = "content">
+                    Work of <a href="https://sanathdevalapurkar.github.io/files/thesis.pdf#section.6.4">Sanath Devalapurkar</a><a href="https://arxiv.org/abs/2505.02218"> and Arpon Raksit</a> suggests a relation between \(q\)-de Rham cohomology and \(\mathrm{THH}(-/\mathrm{ku})\). In this article we work out such a relation: If \(R\) is quasi-syntomic with a spherical \(\mathbb E_2\)-lift \(\mathbb S_R\), then the graded pieces of the even filtration on \(\mathrm{TC}^-(\mathrm{ku}\otimes\mathbb S_R/\mathrm{ku})\) are given by the completion of a certain \(q\)-Hodge filtration on the derived \(q\)-de Rham complex of \(R\). We also explain how to obtain the \(q\)-Hodge complex and its Habiro descent from \(\mathrm{THH}(\mathrm{KU}\otimes\mathbb S_R/\mathrm{KU})\) and its genuine equivariant structure.
+                </div>
+            </li>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible"><div><a href="q-Hodge.pdf"><span style="font-size: 22px">\(q\)</span>-Hodge complexes and refined <span style="font-size: 22px">\(\mathrm{TC}^-\)</span></a></div><div class="articlenote"><span class="nobold">(joint with Samuel Meyer)</span>.</div></button>
+                <div class = "content">
+                    <div style="display: flex; flex-wrap: wrap-reverse; gap: 12px 24px; justify-content: center; justify-items: center">
+                        <div style="text-align: justify; flex: 1 1 360px; min-width: min(360px, fit-content); max-width: fit-content; vertical-align: top; align-self: center">
+                            As a consequence of Efimov's proof of rigidity of the \(\infty\)-category of localising motives, Efimov and Scholze have constructed refinements of localising invariants such as \(\mathrm{THH}\) and \(\mathrm{TC}^-\). These refinements often contain vastly more information than the original invariant. In this article we explain a general recipe how to compute the refinements in certain situations. We then apply this recipe to compute \(\mathrm{TC}^{\mathrm{ref},-}(\mathrm{ku}\otimes\mathbb{Q}/\mathrm{ku})\) and \(\mathrm{TC}^{\mathrm{ref},-}(\mathrm{KU}\otimes\mathbb{Q}/\mathrm{KU})\). The result has a rather surprising geometric description (see the picture) and contains non-trivial information modulo any prime, in contrast to the unrefined \(\mathrm{TC}^-\).
+                        </div>
+                        <div style="vertical-align: top">
+                            <img src="AdicSpectrum.png" alt="An overconvergent rainbow."  title="An overconvergent rainbow." style="width: 200px; align: center; margin-right: -30px; margin-top: 12px"/>
+                            <div style="width: 200px; margin-right: 0px; text-align: center; font-size: medium">The analytic spectrum of \(\pi_0\mathrm{TC}^-((\mathrm{KU}_p^\wedge\otimes\mathbb Q)/\mathrm{KU}_p^\wedge)\).</div>
+                        </div>
+                    </div>
+                    <div style="text-align: justify; margin-top: 12px">
+                        This paper builds heavily on the connection between \(q\)-de Rham cohomology and topological Hochschild homology over \(\mathrm{ku}\) that was discovered by Devalapurkar and Raksit and explored in my eponymous article.
+                    </div>
+                </div>
+            </li>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible" ><div><a href="q-Witt.pdf"><span style="font-size: 22px">\(q\)</span>-Witt vectors and <span style="font-size: 22px">\(q\)</span>-Hodge complexes</a>.</div></button>
+                <div class = "content">
+                    We introduce a &ldquo;\(q\)-version&rdquo; of Witt vectors and de Rham&ndash;Witt complexes and show that they are closely related to a variant of \(q\)-de Rham cohomology, which we call the &ldquo;\(q\)-Hodge complex&rdquo;. We also show an unfortunate no-go result for coordinate independence of the \(q\)-Hodge complex.
+                <div>
+            </li>
+        </ol>
+    </div>
+    <div>
+    <h2 style="margin-bottom: 12px"> Slides from talks</h2>
+        <ol style="text-align: justify; margin-top: 12px; margin-bottom: 12px" reversed>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible" ><div><a href="Defense.pdf"><span style="font-size: 22px">\(q\)</span>-Hodge filtrations, Habiro cohomology, and <span style="font-size: 22px">\(\mathrm{ku}\)</span></a>.</div></button>
+                <div class = "content">
+                    My thesis defense talk.
+                <div>
+            </li>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible" ><div><a href="RefinedTC-OverKU.pdf">Refined <span style="font-size: 22px">\(\mathrm{TC}^-\)</span> over <span style="font-size: 22px">\(\mathrm{ku}\)</span> and derived <span style="font-size: 22px">\(q\)</span>-Hodge complexes</a>.</div></button>
+                <div class = "content">
+                    Contributed talk at the workshop on Dualisable Categories &amp; Continuous K-Theory in Bonn 2024.
+                <div>
+            </li>
+        </ol>
+    <h2 style="margin-bottom: 12px"> Miscellaneous</h2>
+        <ol style="text-align: justify; margin-top: 12px; margin-bottom: 12px" reversed>
+            <li style="margin-bottom: 12px;">
+                <button type="button" class="collapsible" ><div><a href="q-deRhamGlobal.pdf">The global <span style="font-size: 22px">\(q\)</span>-de Rham complex</a>.</div></button>
+                <div class = "content">
+                    In this short note we explain how the \(q\)-de Rham for smooth algebras over \(\mathbb Z\) can be glued together from its \(p\)-completions (defined in terms of Bhatt&ndash;Scholze's \(q\)-crystalline cohomology) and its rationalisation (defined as a base change of de Rham cohomology). This is mostly formal, but not completely trivial. Now incorporated into <a href="q-Thesis.pdf">my thesis</a>.
+                </div>
+            </li>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible" ><div><a href="https://florianadler.github.io/inftyCats/inftyCats.pdf"><span style="font-size: 22px">\(\infty\)</span>-Categories in topology</a>.</div></button>
+                <div class = "content">
+                    Notes from a QED Academy course 2023. Roughly 70% finished.
+                <div>
+            </li>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible" ><div><a href="https://florianadler.github.io/AlgebraBonn/KTheory.pdf">Algebraic and Hermitian <span style="font-size: 22px">\(K\)</span>-Theory</a>.</div></button>
+                <div class = "content">
+                    Notes for Fabian Hebestreit's lecture on \(\infty\)-categories and \(K\)-Theory, held at the University of Bonn in the winter term 2021/22.
+                </div>
+            </li>
+            <li style="margin-bottom: 12px">
+                <button type="button" class="collapsible" ><div><a href="q-deRham.pdf">My master thesis</a>.</div></button>
+                <div class = "content">
+                    Contains a first definition of \(q\)-Witt vectors and \(q\)-de Rham&ndash;Witt complexes as well as the no-go result for the \(q\)-Hodge complex. These ideas are developed more systematically in my paper on <a href="q-Witt.pdf">\(q\)-Witt vectors and \(q\)-Hodge complexes</a>.
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+        }
+    </script>
+</body>
+</html>
